@@ -35,7 +35,11 @@ class LinkedList(object):
     def find(self, val):
         # TODO: find the first item with a given value
         item = self.head
-
+        while (item != None):
+            if item.get_data() == val:
+                return item
+            else:
+                item = item.get_next()
         return None
 
     def deleteAt(self, idx):
