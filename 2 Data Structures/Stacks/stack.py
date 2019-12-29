@@ -1,3 +1,5 @@
+# A stack is LIFO: last in first out 
+
 stack = []
 
 stack.append(1)
