@@ -8,8 +8,7 @@ def bubbleSort(dataset):
                 temp = dataset[j]
                 dataset[j] = dataset[j+1]
                 dataset[j+1] = temp
-
-    print("Current state: ", dataset)
+        print("Current state: ", dataset)
 
 def main():
     list1 = [6, 20, 8, 19, 56, 23, 87, 41, 49, 53, 13]
