@@ -75,7 +75,7 @@ itemList.dump_list()
 # print("Item count: ", itemList.get_count())
 # print("Finding count: ", itemList.find(13))
 # print("Finding count: ", itemList.find(78))
-
+ 
 # delete an item
 itemList.deleteAt(3)
 print("Item count: ", itemList.get_count())
