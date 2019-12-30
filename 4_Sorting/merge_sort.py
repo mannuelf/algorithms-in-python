@@ -1,4 +1,4 @@
-# Merge sor with recursion
+# Merge sort with recursion
 
 items = [6, 20, 8, 19, 56, 23, 87, 99, 101, 89, 24, 99]
 
